@@ -31,6 +31,7 @@ PDF-Sorter-Combiner/
 
 ## Usage
 
-1. Clone the repository and delete content in input/ and output/ directories
+1. Clone the repository and delete content in `input` and `output` directories
 2. Create and insert files/directories in the format specified above
 3. Run Python program using `python main.py` in `PDF-Sorter-Combiner` directory
+4. Adjust confuguration variables as necessary in `config.py`
