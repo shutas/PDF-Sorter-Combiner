@@ -29,6 +29,12 @@ PDF-Sorter-Combiner/
     └── (error_report_2015.txt)
 ```
 
+Note that ALL of the PDF files you want to merge together must be provided beforehand under the same directory. The naming convention for the directories should be `<University Name>_<Year>/`. All of the PDF files should NOT be renamed, as this program depends on the files to have the original names (i.e. the same name embedded in the specified HTML source code).
+
+## File Format
+
+`university_list.csv` should have two columns with labels `大学名` and `URL`. `大学名` should have the name of universities, and `URL` should have the URL links to the webpage of the respective university that include the download links to all the documents which you want to merge.
+
 ## Usage
 
 1. Clone the repository and delete content in `input` and `output` directories
